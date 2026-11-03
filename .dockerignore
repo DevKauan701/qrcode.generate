@@ -1,0 +1,38 @@
+# Build e dependências locais
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+
+# Controle de versão
+.git/
+.gitignore
+.gitattributes
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Segredos e configuração local
+.env
+.env.*
+application-local.*
+
+# Docker e documentação (não precisam ir para a imagem)
+Dockerfile
+docker-compose*.yml
+.dockerignore
+README.md
+HELP.md
+
+# Dados e logs locais
+data/
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
